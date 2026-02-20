@@ -1,4 +1,4 @@
-import type { LayerData, HandleInfo, Viewport } from '../types';
+import type { LayerData, HandleInfo } from '../types';
 import { canvasToLocal, getCorners, getRotationHandlePos } from './Transform';
 
 export function hitTestLayer(layer: LayerData, cx: number, cy: number): boolean {

@@ -2,7 +2,6 @@ import { useRef } from 'react';
 import { useEditorStore } from '../../store/editorStore';
 import { removeBackground } from '../../engine/BackgroundRemoval';
 import { loadImageFromDataUrl } from '../../api/nanoBanana';
-import { imageToDataUrl } from '../../engine/ExportManager';
 
 export default function PropertyPanel() {
   const layers = useEditorStore((s) => s.layers);
